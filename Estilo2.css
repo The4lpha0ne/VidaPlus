@@ -45,7 +45,9 @@ header {
 }
 
 .Logotipo2 {
-    display: inline-block;
+    visibility: hidden;
+    display: none;
+    /* display: inline-block; */
     text-align: right;
     vertical-align: top;  
     width: 25%;
@@ -85,11 +87,6 @@ header {
 
     .menu li {
         flex: 1 1 0;
-    }
-
-    .Logotipo2 {
-        visibility: hidden;
-        display: none;
     }
 }
 
