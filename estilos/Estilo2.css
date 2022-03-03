@@ -1,0 +1,250 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+}
+
+body {
+    background-image: url(img/Nature.gif);
+    background-size: cover;
+    padding-bottom: 45px;
+    height: fit-content;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 8px solid black;
+    border-bottom-style: double;
+    background-color: red;
+    /* z-index: 1000; */
+    /* display: inline-block; */
+}
+
+.nombreprincipal {
+    display: inline-block;
+    width: 50%;    
+    text-align: center;
+    vertical-align: top;
+    font-size: 60px;
+    text-shadow: 2px 2px aqua;
+}
+
+.Logotipo1 {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 25%;
+    /* width: 25%; */
+    height: auto;
+    max-width: 65px;
+    margin-top: 1%;
+    margin-right: 5%;       
+}
+
+.Logotipo2 {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;  
+    width: 25%;
+    /* width: 25%; */
+    height: auto;
+    max-width: 65px;
+    margin-top: 1%;
+    margin-left: 5%;      
+}
+
+.nombreprincipal {
+    animation-name: cambio_colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cambio_colores {
+    from {
+        color: black;
+    }
+
+    to {
+        color: aqua;
+    }
+}
+
+.wrapper1 {
+    display: inline-block;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .menu ul {
+        display: flex;
+    }
+
+    .menu li {
+        flex: 1 1 0;
+    }
+}
+
+/* .menu > ul {
+    border: 1px solid black;    
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    top: 0%;
+    /* margin-top: 76px; */
+    margin-top: 54px;
+}
+
+ul .activa {
+    background-color: green;
+}
+
+/* .menu li {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+} */
+
+/* .submenu li {
+    border: none;
+}
+
+.menu li:hover {
+    border: none;
+} */
+
+li a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: white;
+    color: blue;
+}
+
+.activa {
+    background-color: green;
+    color: white;
+}
+
+.o1, .o2, .o3, .o4 {
+    background-color: orange;
+    color: blue;
+    /* opacity: 0.8; */
+}
+
+.o5, .o6, .o7, .o8, .o9, .o10, .o11, .o12 {
+    background-color: black;
+    color: greenyellow;
+}
+
+.submenu {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 0;
+    top: 0%;
+}
+
+.menu li > .submenu {
+    visibility: hidden;
+    display: none;
+}
+
+.menu li:hover > .submenu {
+    visibility: visible;
+    display: block;
+    margin-top: 0%;
+}
+
+#container1 {
+    width: 100%;
+}
+
+.cuerpo1 {
+    color: black;
+    margin-top: 2%;
+    width: 48.5%;
+    padding: 0%;
+    display: inline-block;
+    /* overflow: scroll; */
+    /* height: 80%; */
+    margin-left: 1em;
+    text-align: left;
+    vertical-align: top;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.lateral {
+    margin-top: 1%;
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.PrimeraFoto {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 3px solid blueviolet;  
+}
+
+.espacio1 {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.SegundaFoto {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 3px solid blueviolet;  
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 6%;
+    padding-bottom: 1%;
+}
+
+.textofooter {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border-top: 8px solid black;
+    border-top-style: double;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+.cuerpo1 > h2 {
+    font-style: italic;
+    font-weight: bold;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: aqua;
+}
+
+.cuerpo1 > p {
+    font-weight: bold;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    /* opacity: 0.9; */
+}
