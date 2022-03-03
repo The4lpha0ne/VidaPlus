@@ -6,24 +6,54 @@
 }
 
 body {
-    background-color: aqua;
+    background-image: url(img/Sky.gif);
+    background-size: cover;
     padding-bottom: 45px;
     height: fit-content;
 }
 
 header {
+    text-align: center;
     position: fixed;
     width: 100%;
-    /* z-index: 1000; */
-}
-
-.nombreprincipal {
-    text-align: center;
-    font-size: 60px;
     border-bottom: 8px solid black;
     border-bottom-style: double;
     background-color: red;
+    /* z-index: 1000; */
+    /* display: inline-block; */
+}
+
+.nombreprincipal {
+    display: inline-block;
+    width: 50%;    
+    text-align: center;
+    vertical-align: top;
+    font-size: 60px;
     text-shadow: 2px 2px aqua;
+}
+
+.Logotipo1 {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 25%;
+    /* width: 25%; */
+    height: auto;
+    max-width: 65px;
+    margin-top: 1%;
+    margin-right: 5%;       
+}
+
+.Logotipo2 {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;  
+    width: 25%;
+    /* width: 25%; */
+    height: auto;
+    max-width: 65px;
+    margin-top: 1%;
+    margin-left: 5%;      
 }
 
 .nombreprincipal {
@@ -56,6 +86,11 @@ header {
     .menu li {
         flex: 1 1 0;
     }
+
+    .Logotipo2 {
+        visibility: hidden;
+        display: none;
+    }
 }
 
 /* .menu > ul {
@@ -66,7 +101,8 @@ ul {
     list-style-type: none;
     padding: 0;
     top: 0%;
-    margin-top: 76px;
+    /* margin-top: 76px; */
+    margin-top: 54px;
 }
 
 ul .activa {
@@ -106,7 +142,8 @@ li a:hover {
 
 .o1, .o2, .o3, .o4 {
     background-color: orange;
-    color: black;
+    color: blue;
+    /* opacity: 0.8; */
 }
 
 .o5, .o6, .o7, .o8, .o9, .o10, .o11, .o12 {
@@ -166,7 +203,7 @@ h2 {
     height: auto;
     max-width: 400px;
     border-radius: 20px;
-    border: 3px solid slateblue  
+    border: 3px solid blueviolet;  
 }
 
 .espacio1 {
@@ -179,7 +216,7 @@ h2 {
     height: auto;
     max-width: 400px;
     border-radius: 20px;
-    border: 3px solid slateblue  
+    border: 3px solid blueviolet;  
 }
 
 footer {
@@ -200,3 +237,21 @@ footer {
     padding-top: 10px;
     padding-bottom: 1%;
 }
+
+.cuerpo1 > h2 {
+    font-style: italic;
+    font-weight: bold;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: aqua;
+}
+
+.cuerpo1 > p {
+    font-weight: bold;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    /* opacity: 0.9; */
+}
+
+
