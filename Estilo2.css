@@ -46,8 +46,8 @@ header {
 
 .Logotipo2 {
     visibility: hidden;
-    display: none;
-    /* display: inline-block; */
+    /* display: none; */
+    display: inline-block;
     text-align: right;
     vertical-align: top;  
     width: 25%;
