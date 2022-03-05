@@ -47,13 +47,13 @@ header {
 .Logotipo2 {
     visibility: hidden;
     /* display: none; */
-    display: inline-block;
+    display: none;
     text-align: right;
     vertical-align: top;  
     width: 15%;
     /* width: 25%; */
     height: auto;
-    max-width: 15px;
+    max-width: 12px;
     margin-top: 1%;
     margin-left: 5%;      
 }
