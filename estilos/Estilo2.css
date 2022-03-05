@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(img/Sky.gif);
+    background-image: url(../img/Nature.gif);
     background-size: cover;
     padding-bottom: 45px;
     height: fit-content;
@@ -250,5 +250,3 @@ footer {
     color: white;
     /* opacity: 0.9; */
 }
-
-
