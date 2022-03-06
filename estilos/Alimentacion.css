@@ -200,10 +200,10 @@ html, body {
 
 .cuerpo1 {
     margin-top: 2%;
-    width: 45%;
+    width: 42%;
     padding: 0%;
     display: inline-block;
-    margin-right: 1em;
+    margin-left: 1em;
     text-align: left;
     vertical-align: top;
 }
