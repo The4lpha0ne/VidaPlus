@@ -200,7 +200,7 @@ html, body {
 
 .cuerpo1 {
     margin-top: 2%;
-    width: 94;
+    /* width: 94%; */
     padding: 0%;
     display: inline-block;
     margin-left: 1em;
