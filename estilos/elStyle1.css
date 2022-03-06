@@ -257,12 +257,12 @@ footer {
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track-piece {
     background: black;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb:vertical {
     background: aqua;
     border-radius: 10px;
 }
@@ -272,4 +272,8 @@ footer {
     background: blueviolet;
 }
 
-
+html, body {
+    overflow-x: hidden;
+    scrollbar-color: aqua black;
+    scrollbar-width: 20px;
+}
