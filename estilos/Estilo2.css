@@ -130,6 +130,7 @@ li a {
 li a:hover {
     background-color: white;
     color: blue;
+    border-radius: 25px;
 }
 
 .activa {
