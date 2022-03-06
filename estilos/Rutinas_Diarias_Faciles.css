@@ -199,12 +199,11 @@ html, body {
 }
 
 .cuerpo1 {
-    color: black;
     margin-top: 2%;
-    width: 48.5%;
+    width: 45%;
     padding: 0%;
     display: inline-block;
-    margin-left: 1em;
+    margin-right: 1em;
     text-align: left;
     vertical-align: top;
 }
@@ -229,10 +228,11 @@ h2 {
 }
 
 .lateral {
-    margin-top: 1%;
+    margin-top: 2%;
     display: inline-block;
     width: 45%;
-    text-align: right;
+    margin-left: 1em;
+    text-align: left;
     vertical-align: top;
 }
 
