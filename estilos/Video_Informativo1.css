@@ -199,13 +199,13 @@ html, body {
 }
 
 .cuerpo1 {
-    color: black;
     margin-top: 2%;
-    width: 48.5%;
+    width: 94.5%;
     padding: 0%;
     display: inline-block;
     margin-left: 1em;
-    text-align: left;
+    margin-right: 1em;
+    text-align: center;
     vertical-align: top;
 }
 
@@ -226,14 +226,6 @@ h2 {
     background-color: blueviolet;
     border-radius: 20px;
     color: white;
-}
-
-.lateral {
-    margin-top: 1%;
-    display: inline-block;
-    width: 45%;
-    text-align: right;
-    vertical-align: top;
 }
 
 .PrimeraFoto {
