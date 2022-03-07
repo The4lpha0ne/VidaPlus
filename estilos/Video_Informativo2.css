@@ -200,13 +200,15 @@ html, body {
 
 .cuerpo1 {
     margin-top: 2%;
-    /* width: 94%; */
     padding: 0%;
-    display: inline-block;
     margin-left: 1em;
     margin-right: 1em;
     text-align: center;
-    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .cuerpo1 > h2 {
@@ -214,35 +216,16 @@ html, body {
     font-weight: bold;
     background-color: blueviolet;
     border-radius: 20px;
-    color: aqua;
+    color: black;
     text-decoration: underline;
     font-size: 200%;
 }
 
-.cuerpo1 > p {
-    font-weight: bold;
-    background-color: blueviolet;
-    border-radius: 20px;
-    color: white;
-}
-
-.PrimeraFoto {
+.video1 {
     width: 100%;
-    height: auto;
-    max-width: 400px;
+    height: 400px;
+    max-width: 1000px;
+    max-height: auto;
     border-radius: 20px;
-    border: 3px solid blueviolet;  
-}
-
-.espacio1 {
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-}
-
-.SegundaFoto {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    border-radius: 20px;
-    border: 3px solid blueviolet;  
+    border: 15px solid red;
 }
