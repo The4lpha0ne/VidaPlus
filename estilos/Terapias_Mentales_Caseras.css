@@ -218,6 +218,8 @@ h2 {
     background-color: blueviolet;
     border-radius: 20px;
     color: aqua;
+    text-decoration: underline;
+    font-size: 200%;
 }
 
 .cuerpo1 > p {
