@@ -224,6 +224,11 @@ html, body {
     font-size: 200%;
 }
 
+.espacio3 {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
 .video2 {
     width: 100%;
     height: 400px;
