@@ -220,6 +220,7 @@ html, body {
     color: aqua;
     text-decoration: underline;
     font-size: 150%;
+    text-align: center;
 }
 
 .cuerpo1 > p {
