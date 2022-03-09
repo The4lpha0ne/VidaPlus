@@ -222,7 +222,8 @@ h2 {
     border-radius: 20px;
     color: aqua;
     text-decoration: underline;
-    font-size: 200%;
+    font-size: 150%;
+    text-align: center;
 }
 
 .cuerpo1 > p {
