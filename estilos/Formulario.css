@@ -228,12 +228,6 @@ html, body {
     margin-bottom: 1.5%;
 }
 
-fieldset {
-    background-color: blueviolet;
-    border-radius: 25px;
-    padding-left: 20px;
-}
-
 .container2 {
     height: 100%;
     max-height: auto;
@@ -244,6 +238,26 @@ fieldset {
     display: table;
     box-sizing: border-box;
     font-size: 25px;
+}
+
+.MasInfo {
+    width: 350px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+fieldset {
+    background-color: blueviolet;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.nombre, 
+.email, 
+.phone,  
+.message {
+    background-color: black;
+    color: white;
 }
 
 .nombre, 
@@ -262,14 +276,6 @@ fieldset {
     border-radius: 10px;
 }
 
-.nombre, 
-.email, 
-.phone,  
-.message {
-    background-color: black;
-    color: white;
-}
-
 .preference {
     background-color: black;
     border-radius: 10px;
@@ -285,8 +291,22 @@ fieldset {
     padding-bottom: 5px;  
 }
 
-.MasInfo {
-    width: 350px;
-    display: table-cell;
-    vertical-align: middle;
+.button {
+    cursor: pointer;
+    color: aqua;
+    background-color: black;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-style: italic;      
+}
+
+.button:hover {
+    background-color: red;
+    color: black;
+    border: 4px solid aqua;
+    outline: none;
+    box-shadow: 0 0 20px black;
 }
