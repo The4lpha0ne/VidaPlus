@@ -165,6 +165,17 @@ footer {
     padding-bottom: 1%;
 }
 
+.textofooter > a {
+    text-decoration: none;
+    color: black;
+}
+
+.textofooter > a:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
