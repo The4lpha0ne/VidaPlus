@@ -220,7 +220,7 @@ html, body {
     border-radius: 20px;
     color: black;
     text-decoration: underline;
-    font-size: 350%;
+    font-size: 250%;
 }
 
 .espacio5 {
@@ -231,7 +231,7 @@ html, body {
 fieldset {
     background-color: blueviolet;
     border-radius: 25px;
-    padding-left: 42px;
+    padding-left: 20px;
 }
 
 .container2 {
@@ -286,7 +286,7 @@ fieldset {
 }
 
 .MasInfo {
-    width: 400px;
+    width: 350px;
     display: table-cell;
     vertical-align: middle;
 }
