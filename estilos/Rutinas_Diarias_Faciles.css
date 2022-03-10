@@ -244,7 +244,8 @@ html, body {
     font-weight: bold;
     background-color: blueviolet;
     border-radius: 20px;
-    color: aqua;
+    color: black;
+    text-shadow: 1px 1px aqua;
     text-decoration: underline;
     font-size: 150%;
     text-align: center;

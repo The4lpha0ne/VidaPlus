@@ -246,6 +246,7 @@ html, body {
     background-color: blueviolet;
     border-radius: 20px;
     color: aqua;
+    text-shadow: 1px 1px black;
     text-decoration: underline;
     font-size: 150%;
     text-align: center;
