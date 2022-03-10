@@ -217,7 +217,7 @@ footer {
 html, body {
     overflow-x: hidden;
     scrollbar-color: aqua black;
-    scrollbar-width: 20px;
+    scrollbar-width: auto;
 }
 
 /**************************************************/
