@@ -195,7 +195,7 @@ footer {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 20px;
+    width: auto;
 }
 
 /* Track */
@@ -204,7 +204,7 @@ footer {
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb:vertical {
+::-webkit-scrollbar-thumb {
     background: aqua;
     border-radius: 10px;
 }
